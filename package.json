@@ -1,0 +1,25 @@
+{
+  "name": "js-kafka-tools",
+  "version": "1.0.0",
+  "description": "Bunch js scripts to interact with kafka with protocol buffer decoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "protobuf",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Hari krishna",
+  "license": "ISC",
+  "dependencies": {
+    "@odpf/stencil": "^0.2.2",
+    "google-protobuf": "^3.21.2",
+    "kafkajs": "^2.1.0",
+    "prettier": "^3.0.3",
+    "protobufjs": "^7.0.0",
+    "ramda": "^0.28.0"
+  }
+}
